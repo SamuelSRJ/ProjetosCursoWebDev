@@ -1,0 +1,126 @@
+body{
+    background: #e6e6e6;
+}
+div.menu-bar{
+    background: #f0b637;
+    width: 100%;
+    height: 180px;
+    margin: 0px;
+    border: 1px solid red;
+}
+#title{
+    text-align: center;
+    margin-top: 20px;
+}
+p#title1{
+    font: bold 45pt Arial, sans-serif;
+    color:rgb(81, 81, 81);
+    display: inline;
+}
+p#title2{
+    font: bold 40pt Arial, sans-serif;
+    color: #FFF;
+    display: inline;
+}
+div.menu{
+    text-align: center;
+    margin-top: 30px;
+}
+a.link-menu{
+    font: bold 17pt Arial, sans-serif;
+    text-decoration: none;
+    margin: 15px 15px;
+    padding: 5px 10px;
+    color: #FFF;
+}
+a.link-menu:link, a.link:visited{
+    color: #FFF;
+}
+a.link-menu:hover{
+    background: #ffd780;
+    color:rgb(143, 143, 143);
+    padding: 5px 10px;
+}
+a.link-menu:active{
+    color:rgb(81, 81, 81);
+}
+/* AREA DE CONTEUDO */
+div.content{
+    width: 75%;
+    margin: 10px auto;
+    border: 1px solid red;
+
+}
+div.content-noticia{
+    width: 65%;
+    background: #FFF;
+    border: 1px solid blue;
+    padding: 20px 20px;
+    margin-bottom: 15px;
+    float: left;
+}
+h2.news-title{
+    color: #f0b637;
+    font: bold 17pt Arial, sans-serif;
+    margin: 0px;
+}
+p.post-date{
+    color: rgb(81, 81, 81);
+    font-style: italic;
+    font: bold 12pt Arial, sans-serif;
+    margin: 10px 0px;
+}
+img.news-image{
+    width: 100%;
+}
+p.news-text{
+    font: normal 12pt Arial, sans-serif;
+    font-weight: 450;
+    text-align: justify;
+}
+a.news-link{
+    font: normal 12pt Arial, sans-serif;
+    color: #efaf25;
+    font-weight: 450;
+}
+div.recent-posts{
+    width: 27%;
+    background: #FFF;
+    border: 1px solid purple;
+    float: right;
+    padding: 20px 20px;
+}
+h2.recent-posts-title{
+    margin: 0px;
+    margin-bottom: 10px;
+    font: bold 16pt Arial, sans-serif;
+    background: gray;
+    padding: 5px;
+}
+p.recent-posts-text{
+    font: normal 11pt Arial, sans-serif;
+    font-weight: 450;
+    text-align: justify;
+    margin: 0px;
+}
+a.recent-posts-link{
+    font: normal 12pt Arial, sans-serif;
+    color: #efaf25;
+    font-weight: 450;
+    margin-top: 5px;
+}
+.clear{
+    clear: both;
+}
+/* AREA DE RODAPÉ */
+div.footer{
+    width: 75%;
+    background: rgb(178, 178, 178);
+    text-align: center;
+    margin: auto;
+}
+h1#footer-text{
+    font: bold 15pt Arial, sans-serif;
+    padding: 20px 0px;
+    margin-top: 10px;
+}
