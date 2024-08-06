@@ -1,24 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 body{
     background: #e6e6e6;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
 }
 div.menu-bar{
-    background: #f0b637;
+    background: #f7b600;
     width: 100%;
     height: 180px;
     margin: 0px;
-    border: 1px solid red;
+    border: 1px solid #f7b600;
 }
 #title{
     text-align: center;
     margin-top: 20px;
 }
 p#title1{
-    font: bold 45pt Arial, sans-serif;
-    color:rgb(81, 81, 81);
+    font: bold 45pt 'Trebuchet MS', Helvetica, sans-serif;
+    color:#4e4e4e;
     display: inline;
 }
 p#title2{
-    font: bold 40pt Arial, sans-serif;
+    font: bold 40pt 'Trebuchet MS', Helvetica, sans-serif;
     color: #FFF;
     display: inline;
 }
@@ -27,7 +33,7 @@ div.menu{
     margin-top: 30px;
 }
 a.link-menu{
-    font: bold 17pt Arial, sans-serif;
+    font: bold 17pt 'Trebuchet MS', Helvetica, sans-serif;
     text-decoration: none;
     margin: 15px 15px;
     padding: 5px 10px;
@@ -37,8 +43,8 @@ a.link-menu:link, a.link:visited{
     color: #FFF;
 }
 a.link-menu:hover{
-    background: #ffd780;
-    color:rgb(143, 143, 143);
+    background: #FFF;
+    color:#f7b600;
     padding: 5px 10px;
 }
 a.link-menu:active{
@@ -47,70 +53,93 @@ a.link-menu:active{
 /* AREA DE CONTEUDO */
 div.content{
     width: 75%;
-    margin: 10px auto;
-    border: 1px solid red;
-
+    margin: 15px auto;
+    /*border: 1px solid red;*/
+}
+div.conteudo{
+    width: 75%;
+    /*border: 2px dotted green;*/
+    float: left;
+}
+div.menu-lateral{
+    width: 23%;
+    float: right;
+    /*border: 2px dotted red;*/
 }
 div.content-noticia{
-    width: 65%;
     background: #FFF;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     padding: 20px 20px;
     margin-bottom: 15px;
-    float: left;
 }
 h2.news-title{
     color: #f0b637;
-    font: bold 17pt Arial, sans-serif;
+    font: bold 19pt 'Trebuchet MS', Helvetica, sans-serif;
     margin: 0px;
 }
 p.post-date{
     color: rgb(81, 81, 81);
     font-style: italic;
-    font: bold 12pt Arial, sans-serif;
+    font: bold 12pt 'Trebuchet MS', Helvetica, sans-serif;
     margin: 10px 0px;
 }
 img.news-image{
     width: 100%;
 }
 p.news-text{
-    font: normal 12pt Arial, sans-serif;
+    font: normal 12pt 'Trebuchet MS', Helvetica, sans-serif;
     font-weight: 450;
     text-align: justify;
+    margin-top: 10px;
 }
 a.news-link{
-    font: normal 12pt Arial, sans-serif;
+    font: normal 12pt 'Trebuchet MS', Helvetica, sans-serif;
     color: #efaf25;
     font-weight: 450;
+    margin-top: 10px;
 }
 div.recent-posts{
-    width: 27%;
     background: #FFF;
-    border: 1px solid purple;
-    float: right;
+    /*border: 1px solid purple;*/
     padding: 20px 20px;
 }
-h2.recent-posts-title{
+h2.recent-posts-title, h2.categories-title{
     margin: 0px;
     margin-bottom: 10px;
-    font: bold 16pt Arial, sans-serif;
+    font: bold 16pt 'Trebuchet MS', Helvetica, sans-serif;
     background: gray;
     padding: 5px;
 }
 p.recent-posts-text{
-    font: normal 11pt Arial, sans-serif;
+    font: normal 11pt 'Trebuchet MS', Helvetica, sans-serif;
     font-weight: 450;
     text-align: justify;
     margin: 0px;
 }
 a.recent-posts-link{
-    font: normal 12pt Arial, sans-serif;
+    font: normal 12pt 'Trebuchet MS', Helvetica, sans-serif;
     color: #efaf25;
     font-weight: 450;
-    margin-top: 5px;
+}
+hr#divisoria{
+    margin: 10px 0px;
 }
 .clear{
     clear: both;
+}
+div.categories{
+    background: #FFF;
+    /*border: 1px solid purple;*/
+    padding: 20px 20px;
+    margin-top: 15px;
+}
+a.categories-links{
+    font: normal 12pt 'Trebuchet MS', Helvetica, sans-serif;
+    color: #efaf25;
+    font-weight: 600;
+    margin-top: 5px;
+    display: block;
+    text-decoration: none;
 }
 /* AREA DE RODAPÉ */
 div.footer{
@@ -120,7 +149,7 @@ div.footer{
     margin: auto;
 }
 h1#footer-text{
-    font: bold 15pt Arial, sans-serif;
+    font: bold 13pt 'Trebuchet MS', Helvetica, sans-serif;
     padding: 20px 0px;
     margin-top: 10px;
 }
