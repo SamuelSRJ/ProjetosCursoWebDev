@@ -1,0 +1,42 @@
+body {
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+div#header {
+    width: 100%;
+    height: 250px;
+    background: #314b6e url(images/fundo.png) repeat-x bottom;
+}
+
+div#mid-header {
+    width: 70%;
+    margin: 0px auto;
+}
+
+img#logo {
+    margin-top: 20px;
+}
+
+div#content {
+    width: 70%;
+    margin: 10px auto;
+    background: pink;
+}
+
+div#footer {
+    width: 100%;
+    height: 50px;
+    background: #314b6e;
+}
+
+div#mid-footer {
+    width: 70%;
+    margin: 0px auto;
+    line-height: 50px;
+}
+
+p#copyright {
+    color: white;
+}
