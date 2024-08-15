@@ -56,54 +56,72 @@ div#content {
     
 }
 
+#content div {
+    float: left;
+    margin: 20px 5px;
+}
+
+div#lateral div,
+div#principal div,
+div#secundaria div {
+    background: gray url(images/fundo-caixa.png);
+}
+
+#content h3 {
+    background: #314b6e;
+    color: white;
+}
+
+#content p {
+    background: white;
+}
+
+/* LATERAL */
+div#lateral {
+    width: 25%;
+    border: 1px solid red;
+}
+
 div#interview {
-    width: 33%;
-    background: purple;
+    width: 100%;
     float: left;
-    border: 1px solid red;
 }
 
-div#newsletter {
-    width: 33%;
-    background: green;
+div#news {
+    width: 100%;
     float: left;
-    clear: left;
-    margin-top: 10px;
-    border: 1px solid red;
 }
 
-div#main {
-    width: 66%;
-    border: 1px solid red;
-    float: right;
-    clear: right;
-}
-
-div#last-interview, div#world, div#highlights, div#recent-news {
-    width: 40%;
-    margin-top: 10px;
+/* PRINCIPAL */
+div#principal {
+    width: 35%;
+    border: 1px solid green;
 }
 
 div#last-interview {
-    background: blue;
+    width: 100%;
     float: left;
 }
 
 div#world {
-    background: red;
+    width: 100%;
     float: left;
-    clear: left;
 }
 
-div#highlights {
-    background: yellow;
-    float: right;
-    clear: right;
+/* SECUNDARIA */
+div#secundaria {
+    width: 25%;
+    border: 1px solid blue;
+}
+
+div#highlight {
+    width: 100%;
+    float: left;
 }
 
 div#recent-news {
-    background: orange;
-    float: right;
+    width: 100%;
+    float: left;
 }
 
 div#footer {
