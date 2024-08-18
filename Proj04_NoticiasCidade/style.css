@@ -52,7 +52,6 @@ div#content {
     width: 70%;
     margin: 15px auto;
     background: pink;
-    border: 2px dotted purple;
 }
 
 #content div {
@@ -79,7 +78,7 @@ div#secundaria div {
 /* LATERAL */
 div#lateral {
     width: 25%;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 div#interview {
@@ -114,10 +113,36 @@ div#news {
     float: left;
 }
 
+#news form {
+    background: white;
+}
+
+#news label, #news input {
+    margin: 5px 0px;
+    display: block;
+}
+
+input#email {
+    width: 85%;
+    font-size: 1.1em;
+}
+
+#news label {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+input#btncadastrar {
+    background: #b10333;
+    color: white;
+    font-size: 1.1em;
+    padding: 5px 10px;
+}
+
 /* PRINCIPAL */
 div#principal {
     width: 40%;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
 }
 
 div#last-interview {
@@ -133,7 +158,7 @@ div#world {
 /* SECUNDARIA */
 div#secundaria {
     width: 30%;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
 }
 
 div#highlight {
