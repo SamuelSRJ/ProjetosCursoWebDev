@@ -74,7 +74,7 @@ div#secundaria div {
     background: #314b6e;
     color: white;
     font-size: 1.7em;
-    margin-top: 10px;
+    margin-top: 5px;
     padding-left: 10px;
 }
 
@@ -217,13 +217,44 @@ div#highlight {
     float: left;
 }
 
+#highlight h4 {
+    background: #b10333;
+    color: white;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 0px;
+    padding: 4px 8px;
+}
+
+#highlight img {
+    width: 99%;
+}
+
 div#recent-news {
     width: 100%;
     float: left;
 }
 
-.clear {
-    clear: both;
+#recent-news img {
+    width: 30%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+#recent-news a {
+    margin-left: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #35629d;
+    font-weight: bold;
+}
+
+#recent-news p {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    width: 60%;
 }
 
 div#footer {
