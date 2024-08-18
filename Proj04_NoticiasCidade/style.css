@@ -11,7 +11,7 @@ div#header {
 }
 
 div#mid-header {
-    width: 70%;
+    width: 69%;
     margin: 0px auto;
 }
 
@@ -53,14 +53,15 @@ ul#nav a:hover {
 }
 
 div#content {
-    width: 70%;
+    width: 69%;
     margin: 15px auto;
     background: pink;
 }
 
 #content div {
     float: left;
-    margin: 20px 5px;
+    padding: 5px;
+    margin: 4px;
 }
 
 div#lateral div,
@@ -72,7 +73,9 @@ div#secundaria div {
 #content h3 {
     background: #314b6e;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.7em;
+    margin-top: 10px;
+    padding-left: 10px;
 }
 
 #content p {
@@ -81,7 +84,7 @@ div#secundaria div {
 
 /* LATERAL */
 div#lateral {
-    width: 20%;
+    width: 19%;
     /*border: 1px solid red;*/
 }
 
@@ -154,9 +157,53 @@ div#last-interview {
     float: left;
 }
 
+#last-interview h4 {
+    background: #b10333;
+    color: black;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 0px;
+    padding: 4px 8px;
+}
+
+#last-interview img {
+    width: 99%;
+}
+
+#last-interview p {
+    font-size: 1.1em;
+}
+
 div#world {
     width: 100%;
     float: left;
+}
+
+#world img {
+    width: 25%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+#world a {
+    margin-left: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #35629d;
+    font-weight: bold;
+}
+
+#world p {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    width: 72%;
+}
+
+#world hr {
+    clear: both;
+    margin: 10px 0px;
 }
 
 /* SECUNDARIA */
@@ -188,7 +235,7 @@ div#footer {
 }
 
 div#mid-footer {
-    width: 70%;
+    width: 69%;
     margin: 0px auto;
     line-height: 50px;
 }
