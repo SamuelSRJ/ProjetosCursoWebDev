@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Game: Mata Mosquito</title>
+
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Javascript com a lógica do jogo -->
+    <script src="js/jogo.js"></script>
+
+  </head>
+  <body onresize="ajustaTamanhoPalcoJogo()">
+
+    <script>
+      setInterval(function() {
+        posicaoRandomica()
+      }, 1000)
+    </script>
+  </body>
+</html>
